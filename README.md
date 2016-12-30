@@ -43,3 +43,8 @@ Init a NPM package:
 
 `drun node npm init`
 
+## More?
+
+If you have any more interesting examples of using docker images
+in context of current directory, let me know by forking that repo
+and adding it to this README :)
