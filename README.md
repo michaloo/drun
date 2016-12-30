@@ -11,11 +11,7 @@ Add the alias to you `~/.bash_profile` file and restart terminal:
 
 Run one-off command with current directory mounted to the container:
 
-`drun [container_name] [command]`
-
-As above plus exposed ports 80 and 443:
-
-`drunp [container_name] [command]`
+`drun [OPTIONS] IMAGE COMMAND [ARG...]`
 
 ## Examples
 
@@ -31,9 +27,9 @@ Connect to a selected MySQL/MariaDB database:
 
 `drun mariadb mysql -h localhost -u test`
 
-Serve PHP files using built in PHP server (notice using `drunp` command):
+Serve PHP files using built in PHP server
 
-`drunp php php -S 0.0.0.0:80`
+`drun -p 80:80 php php -S 0.0.0.0:80`
 
 Init a NPM package:
 
