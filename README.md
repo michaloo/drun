@@ -67,6 +67,10 @@ View comments on drun Hacker News first submission:
 
 `drun ondrejmo/haxor-news view -c 13283774`
 
+Check the weather:
+
+`drun appropriate/curl wttr.in`
+
 ## More?
 
 If you have any more interesting examples of using docker images
