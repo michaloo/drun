@@ -54,3 +54,11 @@ Needs other node version? Nothing easier:
 If you have any more interesting examples of using docker images
 in context of current directory, let me know by forking that repo
 and adding it to this README :)
+
+## What it does exactly?
+
+1. runs a container for selected image with interactive options passed
+2. mounts the current directory inside the container and sets workdir for it
+3. makes sure that the container will be removed after it exits
+4. sets users for the current user (thanks [Leynos](https://news.ycombinator.com/item?id=13284468))
+5. mounts host ~/.drun directory to the container and sets home for it - that's simple support for caching
