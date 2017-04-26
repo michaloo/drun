@@ -59,6 +59,14 @@ Issue a Let's Enrypt cert (and override the user setting):
 
 `drun -u root:root --net host neilpang/acme.sh --issue -d localhost --standalone`
 
+View top Hacker News posts:
+
+`drun ondrejmo/haxor-news top`
+
+View comments on drun Hacker News first submission:
+
+`drun ondrejmo/haxor-news view -c 13283774`
+
 ## More?
 
 If you have any more interesting examples of using docker images
