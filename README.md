@@ -13,7 +13,9 @@ Add the alias to you `~/.bash_profile` file and source it (alternatively restart
 
 Run one-off command with current directory mounted to the container:
 
-`drun [OPTIONS] IMAGE COMMAND [ARG...]`
+`drun [OPTIONS] IMAGE[:TAG|@DIGEST] [COMMAND] [ARG...]`
+
+Notice that the form of the command is compatible with [docker run](https://docs.docker.com/engine/reference/run/). All options will be passed to docker.
 
 ## Examples
 
