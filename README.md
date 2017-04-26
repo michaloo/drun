@@ -3,9 +3,11 @@ Bash alias to simplify running one-off commands using selected docker images.
 
 ## Installation
 
-Add the alias to you `~/.bash_profile` file and restart terminal:
+Add the alias to you `~/.bash_profile` file and source it (alternatively restart terminal):
 
 `curl https://raw.githubusercontent.com/michaloo/drun/master/alias.bash >> ~/.bash_profile`
+
+`source ~/.bash_profile`
 
 ## Usage
 
@@ -42,6 +44,10 @@ Serve static files using Python3 (there are plenty other options [here](https://
 Init a NPM package:
 
 `drun node npm init`
+
+Needs other node version? Nothing easier:
+
+`drun node:5 npm start`
 
 ## More?
 
