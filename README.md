@@ -55,6 +55,10 @@ Start IRC client:
 
 `drun irssi:alpine`
 
+Issue a Let's Enrypt cert (and override the user setting):
+
+`drun -u root:root --net host neilpang/acme.sh --issue -d localhost --standalone`
+
 ## More?
 
 If you have any more interesting examples of using docker images
