@@ -51,6 +51,10 @@ Needs other node version? Nothing easier:
 
 `drun node:5 npm start`
 
+Start IRC client:
+
+`drun irssi:alpine`
+
 ## More?
 
 If you have any more interesting examples of using docker images
