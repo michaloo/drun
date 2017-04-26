@@ -33,15 +33,15 @@ Connect to a selected MySQL/MariaDB database:
 
 Serve PHP files using built in PHP server
 
-`drun -p 80:80 php php -S 0.0.0.0:80`
+`drun php php -S 0.0.0.0:80`
 
 Serve static files using Python2
 
-`drun -p 8000:8000 python:2-alpine python -m SimpleHTTPServer 8000`
+`drun python:2-alpine python -m SimpleHTTPServer 8000`
 
 Serve static files using Python3 (there are plenty other options [here](https://gist.github.com/willurd/5720255))
 
-`drun -p 8000:8000 python:3-alpine python -m http.server 8000`
+`drun python:3-alpine python -m http.server 8000`
 
 Init a NPM package:
 
